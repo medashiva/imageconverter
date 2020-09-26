@@ -27,6 +27,7 @@ def jpgtopdf(request):
             pdf_path = (settings.MEDIA_ROOT+"/"+file_name_only+".pdf")
             print("new line for new branch")
             print("one more branch")
+            print("one more line")
             pdf_bytes = img2pdf.convert(image.filename)
             file = open(pdf_path, "wb")
             file.write(pdf_bytes)
