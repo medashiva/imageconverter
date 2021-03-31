@@ -2,7 +2,7 @@ asgiref==3.2.10
 Django==3.0.8
 fpdf==1.7.2
 img2pdf==0.4.0
-lxml==4.5.2
+lxml==4.6.3
 pikepdf==1.18.0
 Pillow==7.2.0
 pytz==2020.1
